@@ -10,9 +10,9 @@
 
 ```
 PDB_CH			- PDB entry & RNA chain identifier, separated with an underscore (not a feature)
-DSSR			- identifiers of A-stem's nucleotides in DSSR format (see https://x3dna.org/)
-Types			- list of geometric types (I/II/X) of contained A-minors
-SecStruct		- RNA secondary structure type of the A-stem (for example HC-LR - adenines from a classical hairpin distant to the stem; HP-LC - adenines from a pseudoknotted hairpin adjacent to the stem)
+DSSR			- identifiers of A-stem's nucleotides in DSSR format, see https://x3dna.org/ (not a feature)
+Types			- list of geometric types (I/II/X) of contained A-minors (not a feature)
+SecStruct		- RNA secondary structure type of the A-stem, for example HC-LR - adenines from a classical hairpin distant to the stem; HP-LC - adenines from a pseudoknotted hairpin adjacent to the stem (not a feature)
 ds			- Distance (number of stems) between the adenine stretch and the stem
 dbps			- Distance (number of base pairs) between the adenine stretch and the stem
 dbc			- Distance (number of classical bulges) between the adenine stretch and the stem
@@ -47,102 +47,102 @@ ar_guadist		- Sequence distance (number of guanines) between the adenines and th
 ar_adedist		- Sequence distance (number of adenines) between the adenines and the right wing of the stem
 ar_cytdist		- Sequence distance (number of cytosines) between the adenines and the right wing of the stem
 ar_uradist		- Sequence distance (number of uraciles) between the adenines and the right wing of the stem
-ar_bpdist		- 
-ar_lbpdist		- 
-ar_rbpdist		- 
-ar_lwingdist		- 
-ar_rwingdist		- 
-ar_stemdist		- 
-ar_lstemdist		- 
-ar_rstemdist		- 
+ar_bpdist		- Number of base pairs that involve nucleotides between the adenines and the right wing of the stem
+ar_lbpdist		- Number of closest to 5'-end nucleotides of base pairs between the adenines and the right wing of the stem
+ar_rbpdist		- Number of closest to 3'-end nucleotides of base pairs between the adenines and the right wing of the stem
+ar_lwingdist		- Number of left wings between the adenines and the right wing of the stem
+ar_rwingdist		- Number of right wings between the adenines and the right wing of the stem
+ar_stemdist		- Number of stems that involve any wings between the adenines and the right wing of the stem
+ar_lstemdist		- Number of stems that involve left wings between the adenines and the right wing of the stem
+ar_rstemdist		- Number of stems that involve right wings between the adenines and the right wing of the stem
 lr_dist			- Sequence distance (number of nucleotides) between the left wing and the right wing of the stem
 lr_guadist		- Sequence distance (number of guanines) between the left wing and the right wing of the stem
 lr_adedist		- Sequence distance (number of adenines) between the left wing and the right wing of the stem
 lr_cytdist		- Sequence distance (number of cytosines) between the left wing and the right wing of the stem
 lr_uradist		- Sequence distance (number of uraciles) between the left wing and the right wing of the stem
-lr_bpdist		- 
-lr_lbpdist		- 
-lr_rbpdist		- 
-lr_lwingdist		- 
-lr_rwingdist		- 
-lr_stemdist		- 
-lr_lstemdist		- 
-lr_rstemdist		- 
-atotheleft		- 
-abetweenlcloser		- 
-abetweenrcloser		- 
-atotheright		- 
-a-1w_eq_l-1w		- 
-a-1w_eq_l0w		- 
-a-1w_eq_l1w		- 
-a1w_eq_l-1w		- 
-a1w_eq_l0w		- 
-a1w_eq_l1w		- 
-a-1w_eq_r-1w		- 
-a-1w_eq_r0w		- 
-a-1w_eq_r1w		- 
-a1w_eq_r-1w		- 
-a1w_eq_r0w		- 
-a1w_eq_r1w		- 
-l-1w_eq_r0w		- 
-l-1w_eq_r1w		- 
-l0w_eq_r-1w		- 
-l0w_eq_r1w		- 
-l1w_eq_r-1w		- 
-l1w_eq_r0w		- 
-a-1t_eq_l-1t		- 
-a-1t_eq_l1t		- 
-a0t_eq_l-1t		- 
-a0t_eq_l1t		- 
-a1t_eq_l-1t		- 
-a1t_eq_l1t		- 
-a-1t_eq_r-1t		- 
-a-1t_eq_r1t		- 
-a0t_eq_r-1t		- 
-a0t_eq_r1t		- 
-a1t_eq_r-1t		- 
-a1t_eq_r1t		- 
-l-1t_eq_r1t		- 
-l1t_eq_r-1t		- 
-a-1t_bc			- 
-a-1t_bi			- 
-a-1t_bp			- 
-a-1t_hc			- 
-a-1t_hi			- 
-a-1t_hp			- 
-a-1t_ic			- 
-a-1t_ii			- 
-a-1t_ip			- 
-a-1t_jc			- 
-a-1t_ji			- 
-a-1t_jp			- 
-a-1t_fl			- 
-a-1t_gcont		- 
-a-1t_acont		- 
-a-1t_ccont		- 
-a-1t_ucont		- 
-a-1w_fl			- 
-a-1w_gcont		- 
-a-1w_acont		- 
-a-1w_ccont		- 
-a-1w_ucont		- 
-a0t_bc			- 
-a0t_bi			- 
-a0t_bp			- 
-a0t_hc			- 
-a0t_hi			- 
-a0t_hp			- 
-a0t_ic			- 
-a0t_ii			- 
-a0t_ip			- 
-a0t_jc			- 
-a0t_ji			- 
-a0t_jp			- 
-a0t_fl			- 
-a0t_gcont		- 
-a0t_acont		- 
-a0t_ccont		- 
-a0t_ucont		- 
+lr_bpdist		- Number of base pairs that involve nucleotides between the left wing and the right wing of the stem
+lr_lbpdist		- Number of closest to 5'-end nucleotides of base pairs between the left wing and the right wing of the stem
+lr_rbpdist		- Number of closest to 3'-end nucleotides of base pairs between the left wing and the right wing of the stem
+lr_lwingdist		- Number of left wings between the left wing and the right wing of the stem
+lr_rwingdist		- Number of right wings between the left wing and the right wing of the stem
+lr_stemdist		- Number of stems that involve any wings between the left wing and the right wing of the stem
+lr_lstemdist		- Number of stems that involve left wings between the left wing and the right wing of the stem
+lr_rstemdist		- Number of stems that involve right wings between the left wing and the right wing of the stem
+atotheleft		- Adenines are closer to 5'-end than the left wing of the stem (1 - yes, 0 - no)
+abetweenlcloser		- Adenines are between the stem wings in sequence terms and closer to the left wing (1 - yes, 0 - no)
+abetweenrcloser		- Adenines are between the stem wings in sequence terms and closer to the right wing (1 - yes, 0 - no)
+atotheright		- Adenines are closer to 3'-end than the right wing of the stem (1 - yes, 0 - no)
+a-1w_eq_l-1w		- Wing preceding the adenines is the wing preceding the left wing of the stem (1 - yes, 0 - no)
+a-1w_eq_l0w		- Wing preceding the adenines is the left wing of the stem (1 - yes, 0 - no)
+a-1w_eq_l1w		- Wing preceding the adenines is the wing following the left wing of the stem (1 - yes, 0 - no)
+a1w_eq_l-1w		- Wing following the adenines is the wing preceding the left wing of the stem (1 - yes, 0 - no)
+a1w_eq_l0w		- Wing following the adenines is the left wing of the stem (1 - yes, 0 - no)
+a1w_eq_l1w		- Wing following the adenines is the wing following the left wing of the stem (1 - yes, 0 - no)
+a-1w_eq_r-1w		- Wing preceding the adenines is the wing preceding the right wing of the stem (1 - yes, 0 - no)
+a-1w_eq_r0w		- Wing preceding the adenines is the right wing of the stem (1 - yes, 0 - no)
+a-1w_eq_r1w		- Wing preceding the adenines is the wing following the right wing of the stem (1 - yes, 0 - no)
+a1w_eq_r-1w		- Wing following the adenines is the wing preceding the right wing of the stem (1 - yes, 0 - no)
+a1w_eq_r0w		- Wing following the adenines is the right wing of the stem (1 - yes, 0 - no)
+a1w_eq_r1w		- Wing following the adenines is the wing following the right wing of the stem (1 - yes, 0 - no)
+l-1w_eq_r0w		- Wing preceding the left wing of the stem is the right wing of the stem (1 - yes, 0 - no)
+l-1w_eq_r1w		- Wing preceding the left wing of the stem is the wing following the right wing of the stem (1 - yes, 0 - no)
+l0w_eq_r-1w		- The left wing of the stem is the wing preceding the right wing of the stem (1 - yes, 0 - no)
+l0w_eq_r1w		- The left wing of the stem is the wing following the right wing of the stem (1 - yes, 0 - no)
+l1w_eq_r-1w		- Wing following the left wing of the stem is the wing preceding the right wing of the stem (1 - yes, 0 - no)
+l1w_eq_r0w		- Wing following the left wing of the stem is the right wing of the stem (1 - yes, 0 - no)
+a-1t_eq_l-1t		- Thread preceding the adenines is the thread preceding the left wing of the stem (1 - yes, 0 - no)
+a-1t_eq_l1t		- Thread preceding the adenines is the thread following the left wing of the stem (1 - yes, 0 - no)
+a0t_eq_l-1t		- Adenines' thread is the thread preceding the left wing of the stem (1 - yes, 0 - no)
+a0t_eq_l1t		- Adenines' thread is the thread following the left wing of the stem (1 - yes, 0 - no)
+a1t_eq_l-1t		- Thread following the adenines is the thread preceding the left wing of the stem (1 - yes, 0 - no)
+a1t_eq_l1t		- Thread following the adenines is the thread following the left wing of the stem (1 - yes, 0 - no)
+a-1t_eq_r-1t		- Thread preceding the adenines is the thread preceding the right wing of the stem (1 - yes, 0 - no)
+a-1t_eq_r1t		- Thread preceding the adenines is the thread following the right wing of the stem (1 - yes, 0 - no)
+a0t_eq_r-1t		- Adenines' thread is the thread preceding the right wing of the stem (1 - yes, 0 - no)
+a0t_eq_r1t		- Adenines' thread is the thread following the right wing of the stem (1 - yes, 0 - no)
+a1t_eq_r-1t		- Thread following the adenines is the thread preceding the right wing of the stem (1 - yes, 0 - no)
+a1t_eq_r1t		- Thread following the adenines is the thread following the right wing of the stem (1 - yes, 0 - no)
+l-1t_eq_r1t		- Thread preceding the left wing of the stem is the thread following the right wing of the stem (1 - yes, 0 - no)
+l1t_eq_r-1t		- Thread following the left wing of the stem is the thread preceding the right wing of the stem (1 - yes, 0 - no)
+a-1t_bc			- Thread preceding the adenines belongs to a classical bulge (1 - yes, 0 - no)
+a-1t_bi			- Thread preceding the adenines belongs to an isolated bulge (1 - yes, 0 - no)
+a-1t_bp			- Thread preceding the adenines belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+a-1t_hc			- Thread preceding the adenines belongs to a classical hairpin (1 - yes, 0 - no)
+a-1t_hi			- Thread preceding the adenines belongs to an isolated hairpin (1 - yes, 0 - no)
+a-1t_hp			- Thread preceding the adenines belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+a-1t_ic			- Thread preceding the adenines belongs to a classical internal loop (1 - yes, 0 - no)
+a-1t_ii			- Thread preceding the adenines belongs to an isolated internal loop (1 - yes, 0 - no)
+a-1t_ip			- Thread preceding the adenines belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+a-1t_jc			- Thread preceding the adenines belongs to a classical junction (1 - yes, 0 - no)
+a-1t_ji			- Thread preceding the adenines belongs to an isolated junction (1 - yes, 0 - no)
+a-1t_jp			- Thread preceding the adenines belongs to a pseudoknotted junction (1 - yes, 0 - no)
+a-1t_fl			- Length (number of nucleotides) of the thread preceding the adenines (1 - yes, 0 - no)
+a-1t_gcont		- Number of guanines of the thread preceding the adenines
+a-1t_acont		- Number of adenines of the thread preceding the adenines
+a-1t_ccont		- Number of cytosines of the thread preceding the adenines
+a-1t_ucont		- Number of uraciles of the thread preceding the adenines
+a-1w_fl			- Length (number of nucleotides) of the wing preceding the adenines
+a-1w_gcont		- Number of guanines of the wing preceding the adenines
+a-1w_acont		- Number of adenines of the wing preceding the adenines
+a-1w_ccont		- Number of cytosines of the wing preceding the adenines
+a-1w_ucont		- Number of uraciles of the wing preceding the adenines
+a0t_bc			- Adenines' thread belongs to a classical bulge (1 - yes, 0 - no)
+a0t_bi			- Adenines' thread belongs to an isolated bulge (1 - yes, 0 - no)
+a0t_bp			- Adenines' thread belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+a0t_hc			- Adenines' thread belongs to a classical hairpin (1 - yes, 0 - no)
+a0t_hi			- Adenines' thread belongs to an isolated hairpin (1 - yes, 0 - no)
+a0t_hp			- Adenines' thread belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+a0t_ic			- Adenines' thread belongs to a classical internal loop (1 - yes, 0 - no)
+a0t_ii			- Adenines' thread belongs to an isolated internal loop (1 - yes, 0 - no)
+a0t_ip			- Adenines' thread belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+a0t_jc			- Adenines' thread belongs to a classical junction (1 - yes, 0 - no)
+a0t_ji			- Adenines' thread belongs to an isolated junction (1 - yes, 0 - no)
+a0t_jp			- Adenines' thread belongs to a pseudoknotted junction (1 - yes, 0 - no)
+a0t_fl			- Length (number of nucleotides) of the adenines' thread
+a0t_gcont		- Number of guanines of the adenines' thread
+a0t_acont		- Number of adenines of the adenines' thread
+a0t_ccont		- Number of cytosines of the adenines' thread
+a0t_ucont		- Number of uraciles of the adenines' thread
 a1t_bc			- 
 a1t_bi			- 
 a1t_bp			- 
@@ -155,16 +155,16 @@ a1t_ip			-
 a1t_jc			- 
 a1t_ji			- 
 a1t_jp			- 
-a1t_fl			- 
-a1t_gcont		- 
-a1t_acont		- 
-a1t_ccont		- 
-a1t_ucont		- 
-a1w_fl			- 
-a1w_gcont		- 
-a1w_acont		- 
-a1w_ccont		- 
-a1w_ucont		- 
+a1t_fl			- Length (number of nucleotides) of the thread following the adenines
+a1t_gcont		- Number of guanines of the thread following the adenines
+a1t_acont		- Number of adenines of the thread following the adenines
+a1t_ccont		- Number of cytosines of the thread following the adenines
+a1t_ucont		- Number of uraciles of the thread following the adenines
+a1w_fl			- Length (number of nucleotides) of the wing following the adenines
+a1w_gcont		- Number of guanines of the wing following the adenines
+a1w_acont		- Number of adenines of the wing following the adenines
+a1w_ccont		- Number of cytosines of the wing following the adenines
+a1w_ucont		- Number of uraciles of the wing following the adenines
 l-1t_bc			- 
 l-1t_bi			- 
 l-1t_bp			- 
@@ -283,19 +283,19 @@ pseudo			-
 numinecf		- 
 abab			- 
 abacbc			- 
-fi			- 
-num_of_a		- 
-aloop_other_len		- 
-aloop_other_gcont	- 
-aloop_other_acont	- 
-aloop_other_ccont	- 
-aloop_other_ucont	- 
+fi			- position of the first adenine within its thread
+num_of_a		- Number of adenines of the stretch
+aloop_other_len		- Total length (number of nucleotides) of the loop of the adenines stretch except the adenines' thread 
+aloop_other_gcont	- Number of guanines of the loop of the adenines stretch except the adenines' thread 
+aloop_other_acont	- Number of adenines of the loop of the adenines stretch except the adenines' thread 
+aloop_other_ccont	- Number of cytosines of the loop of the adenines stretch except the adenines' thread 
+aloop_other_ucont	- Number of uraciles of the loop of the adenines stretch except the adenines' thread 
 a-5_nucl		- 
 a-4_nucl		- 
 a-3_nucl		- 
 a-2_nucl		- 
 a-1_nucl		- 
-a1_nucl			- 
+a1_nucl			- Base in the +1 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
 a2_nucl			- 
 a3_nucl			- 
 a4_nucl			- 
