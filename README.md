@@ -10,43 +10,43 @@
 
 ```
 PDB_CH			- PDB entry & RNA chain identifier, separated with an underscore (not a feature)
-DSSR			- 
-Types			- 
-SecStruct		- 
-ds			- 
-dbps			- 
-dbc			- 
-dbi			- 
-dbp			- 
-dhc			- 
-dhi			- 
-dhp			- 
-dic			- 
-dii			- 
-dip			- 
-djc			- 
-dji			- 
-djp			- 
-lc			- 
-lr			- 
-al_dist			- 
-al_guadist		- 
-al_adedist		- 
-al_cytdist		- 
-al_uradist		- 
-al_bpdist		- 
-al_lbpdist		- 
-al_rbpdist		- 
-al_lwingdist		- 
-al_rwingdist		- 
-al_stemdist		- 
-al_lstemdist		- 
-al_rstemdist		- 
-ar_dist			- 
-ar_guadist		- 
-ar_adedist		- 
-ar_cytdist		- 
-ar_uradist		- 
+DSSR			- identifiers of A-stem's nucleotides in DSSR format (see https://x3dna.org/)
+Types			- list of geometric types (I/II/X) of contained A-minors
+SecStruct		- RNA secondary structure type of the A-stem (for example HC-LR - adenines from a classical hairpin distant to the stem; HP-LC - adenines from a pseudoknotted hairpin adjacent to the stem)
+ds			- Distance (number of stems) between the adenine stretch and the stem
+dbps			- Distance (number of base pairs) between the adenine stretch and the stem
+dbc			- Distance (number of classical bulges) between the adenine stretch and the stem
+dbi			- Distance (number of isolated bulges) between the adenine stretch and the stem
+dbp			- Distance (number of pseudoknotted bulges) between the adenine stretch and the stem
+dhc			- Distance (number of classical hairpins) between the adenine stretch and the stem
+dhi			- Distance (number of isolated hairpins) between the adenine stretch and the stem
+dhp			- Distance (number of pseudoknotted hairpins) between the adenine stretch and the stem
+dic			- Distance (number of classical internal loops) between the adenine stretch and the stem
+dii			- Distance (number of isolated internal loops) between the adenine stretch and the stem
+dip			- Distance (number of pseudoknotted internal loops) between the adenine stretch and the stem
+djc			- Distance (number of classical junctions) between the adenine stretch and the stem
+dji			- Distance (number of isolated junctions) between the adenine stretch and the stem
+djp			- Distance (number of pseudoknotted junctions) between the adenine stretch and the stem
+lc			- Adenines belong to a loop that is adjacent to the stem (1 - yes, 0 - no) 
+lr			- Adenines belong to a loop that is distant to the stem (1 - yes, 0 - no)
+al_dist			- Sequence distance (number of nucleotides) between the adenines and the left wing of the stem
+al_guadist		- Sequence distance (number of guanines) between the adenines and the left wing of the stem
+al_adedist		- Sequence distance (number of adenines) between the adenines and the left wing of the stem
+al_cytdist		- Sequence distance (number of cytosines) between the adenines and the left wing of the stem
+al_uradist		- Sequence distance (number of uraciles) between the adenines and the left wing of the stem
+al_bpdist		- Number of base pairs that involve nucleotides between the adenine stretch and the left wing of the stem
+al_lbpdist		- Number of closest to 5'-end nucleotides of base pairs between the adenine stretch and the left wing of the stem
+al_rbpdist		- Number of closest to 3'-end nucleotides of base pairs between the adenine stretch and the left wing of the stem
+al_lwingdist		- Number of left wings between the adenine stretch and the left wing of the stem
+al_rwingdist		- Number of right wings between the adenine stretch and the left wing of the stem
+al_stemdist		- Number of stems that involve any wings between the adenine stretch and the left wing of the stem
+al_lstemdist		- Number of stems that involve left wings between the adenine stretch and the left wing of the stem
+al_rstemdist		- Number of stems that involve right wings between the adenine stretch and the left wing of the stem
+ar_dist			- Sequence distance (number of nucleotides) between the adenines and the right wing of the stem
+ar_guadist		- Sequence distance (number of guanines) between the adenines and the right wing of the stem
+ar_adedist		- Sequence distance (number of adenines) between the adenines and the right wing of the stem
+ar_cytdist		- Sequence distance (number of cytosines) between the adenines and the right wing of the stem
+ar_uradist		- Sequence distance (number of uraciles) between the adenines and the right wing of the stem
 ar_bpdist		- 
 ar_lbpdist		- 
 ar_rbpdist		- 
@@ -55,11 +55,11 @@ ar_rwingdist		-
 ar_stemdist		- 
 ar_lstemdist		- 
 ar_rstemdist		- 
-lr_dist			- 
-lr_guadist		- 
-lr_adedist		- 
-lr_cytdist		- 
-lr_uradist		- 
+lr_dist			- Sequence distance (number of nucleotides) between the left wing and the right wing of the stem
+lr_guadist		- Sequence distance (number of guanines) between the left wing and the right wing of the stem
+lr_adedist		- Sequence distance (number of adenines) between the left wing and the right wing of the stem
+lr_cytdist		- Sequence distance (number of cytosines) between the left wing and the right wing of the stem
+lr_uradist		- Sequence distance (number of uraciles) between the left wing and the right wing of the stem
 lr_bpdist		- 
 lr_lbpdist		- 
 lr_rbpdist		- 
