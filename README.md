@@ -143,18 +143,18 @@ a0t_gcont		- Number of guanines of the adenines' thread
 a0t_acont		- Number of adenines of the adenines' thread
 a0t_ccont		- Number of cytosines of the adenines' thread
 a0t_ucont		- Number of uraciles of the adenines' thread
-a1t_bc			- 
-a1t_bi			- 
-a1t_bp			- 
-a1t_hc			- 
-a1t_hi			- 
-a1t_hp			- 
-a1t_ic			- 
-a1t_ii			- 
-a1t_ip			- 
-a1t_jc			- 
-a1t_ji			- 
-a1t_jp			- 
+a1t_bc			- Thread following the adenines belongs to a classical bulge (1 - yes, 0 - no)
+a1t_bi			- Thread following the adenines belongs to an isolated bulge (1 - yes, 0 - no)
+a1t_bp			- Thread following the adenines belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+a1t_hc			- Thread following the adenines belongs to a classical hairpin (1 - yes, 0 - no)
+a1t_hi			- Thread following the adenines belongs to an isolated hairpin (1 - yes, 0 - no)
+a1t_hp			- Thread following the adenines belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+a1t_ic			- Thread following the adenines belongs to a classical internal loop (1 - yes, 0 - no)
+a1t_ii			- Thread following the adenines belongs to an isolated internal loop (1 - yes, 0 - no)
+a1t_ip			- Thread following the adenines belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+a1t_jc			- Thread following the adenines belongs to a classical junction (1 - yes, 0 - no)
+a1t_ji			- Thread following the adenines belongs to an isolated junction (1 - yes, 0 - no)
+a1t_jp			- Thread following the adenines belongs to a pseudoknotted junction (1 - yes, 0 - no)
 a1t_fl			- Length (number of nucleotides) of the thread following the adenines
 a1t_gcont		- Number of guanines of the thread following the adenines
 a1t_acont		- Number of adenines of the thread following the adenines
@@ -165,124 +165,124 @@ a1w_gcont		- Number of guanines of the wing following the adenines
 a1w_acont		- Number of adenines of the wing following the adenines
 a1w_ccont		- Number of cytosines of the wing following the adenines
 a1w_ucont		- Number of uraciles of the wing following the adenines
-l-1t_bc			- 
-l-1t_bi			- 
-l-1t_bp			- 
-l-1t_hc			- 
-l-1t_hi			- 
-l-1t_hp			- 
-l-1t_ic			- 
-l-1t_ii			- 
-l-1t_ip			- 
-l-1t_jc			- 
-l-1t_ji			- 
-l-1t_jp			- 
-l-1t_fl			- 
-l-1t_gcont		- 
-l-1t_acont		- 
-l-1t_ccont		- 
-l-1t_ucont		- 
-l-1w_fl			- 
-l-1w_gcont		- 
-l-1w_acont		- 
-l-1w_ccont		- 
-l-1w_ucont		- 
-l0w_fl			- 
-l0w_gcont		- 
-l0w_acont		- 
-l0w_ccont		- 
-l0w_ucont		- 
-l1t_bc			- 
-l1t_bi			- 
-l1t_bp			- 
-l1t_hc			- 
-l1t_hi			- 
-l1t_hp			- 
-l1t_ic			- 
-l1t_ii			- 
-l1t_ip			- 
-l1t_jc			- 
-l1t_ji			- 
-l1t_jp			- 
-l1t_fl			- 
-l1t_gcont		- 
-l1t_acont		- 
-l1t_ccont		- 
-l1t_ucont		- 
-l1w_fl			- 
-l1w_gcont		- 
-l1w_acont		- 
-l1w_ccont		- 
-l1w_ucont		- 
-r-1t_bc			- 
-r-1t_bi			- 
-r-1t_bp			- 
-r-1t_hc			- 
-r-1t_hi			- 
-r-1t_hp			- 
-r-1t_ic			- 
-r-1t_ii			- 
-r-1t_ip			- 
-r-1t_jc			- 
-r-1t_ji			- 
-r-1t_jp			- 
-r-1t_fl			- 
-r-1t_gcont		- 
-r-1t_acont		- 
-r-1t_ccont		- 
-r-1t_ucont		- 
-r-1w_fl			- 
-r-1w_gcont		- 
-r-1w_acont		- 
-r-1w_ccont		- 
-r-1w_ucont		- 
-r0w_gcont		- 
-r0w_acont		- 
-r0w_ccont		- 
-r0w_ucont		- 
-r1t_bc			- 
-r1t_bi			- 
-r1t_bp			- 
-r1t_hc			- 
-r1t_hi			- 
-r1t_hp			- 
-r1t_ic			- 
-r1t_ii			- 
-r1t_ip			- 
-r1t_jc			- 
-r1t_ji			- 
-r1t_jp			- 
-r1t_fl			- 
-r1t_gcont		- 
-r1t_acont		- 
-r1t_ccont		- 
-r1t_ucont		- 
-r1w_fl			- 
-r1w_gcont		- 
-r1w_acont		- 
-r1w_ccont		- 
-r1w_ucont		- 
-stem_bp1		- 
-stem_bp2		- 
-stem_bp3		- 
-stem_bp4		- 
-stem_bp5		- 
-stem_bp6		- 
-stem_bp7		- 
-stem_bp8		- 
-stem_bp9		- 
-stem_bp10		- 
-stem_gccont		- 
-stem_aucont		- 
-stem_gucont		- 
-towersize		- 
-numintower		- 
-towerpseudo		- 
-towerh			- 
-pseudo			- 
-numinecf		- 
-abab			- 
-abacbc			- 
+l-1t_bc			- Thread preceding the left wing of the stem belongs to a classical bulge (1 - yes, 0 - no)
+l-1t_bi			- Thread preceding the left wing of the stem belongs to an isolated bulge (1 - yes, 0 - no)
+l-1t_bp			- Thread preceding the left wing of the stem belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+l-1t_hc			- Thread preceding the left wing of the stem belongs to a classical hairpin (1 - yes, 0 - no)
+l-1t_hi			- Thread preceding the left wing of the stem belongs to an isolated hairpin (1 - yes, 0 - no)
+l-1t_hp			- Thread preceding the left wing of the stem belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+l-1t_ic			- Thread preceding the left wing of the stem belongs to a classical internal loop (1 - yes, 0 - no)
+l-1t_ii			- Thread preceding the left wing of the stem belongs to an isolated internal loop (1 - yes, 0 - no)
+l-1t_ip			- Thread preceding the left wing of the stem belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+l-1t_jc			- Thread preceding the left wing of the stem belongs to a classical junction (1 - yes, 0 - no)
+l-1t_ji			- Thread preceding the left wing of the stem belongs to an isolated junction (1 - yes, 0 - no)
+l-1t_jp			- Thread preceding the left wing of the stem belongs to a pseudoknotted junction (1 - yes, 0 - no)
+l-1t_fl			- Length (number of nucleotides) of the thread preceding the left wing of the stem
+l-1t_gcont		- Number of guanines of the thread preceding the left wing of the stem
+l-1t_acont		- Number of adenines of the thread preceding the left wing of the stem
+l-1t_ccont		- Number of cytosines of the thread preceding the left wing of the stem
+l-1t_ucont		- Number of uraciles of the thread preceding the left wing of the stem
+l-1w_fl			- Length (number of nucleotides) of the wing preceding the left wing of the stem
+l-1w_gcont		- Number of guanines of the wing preceding the left wing of the stem
+l-1w_acont		- Number of adenines of the wing preceding the left wing of the stem
+l-1w_ccont		- Number of cytosines of the wing preceding the left wing of the stem
+l-1w_ucont		- Number of uraciles of the wing preceding the left wing of the stem
+l0w_fl			- Length (number of nucleotides) of the left wing of the stem
+l0w_gcont		- Number of guanines of the left wing of the stem
+l0w_acont		- Number of adenines of the left wing of the stem
+l0w_ccont		- Number of cytosines of the left wing of the stem
+l0w_ucont		- Number of uraciles of the left wing of the stem
+l1t_bc			- Thread following the left wing of the stem belongs to a classical bulge (1 - yes, 0 - no)
+l1t_bi			- Thread following the left wing of the stem belongs to an isolated bulge (1 - yes, 0 - no)
+l1t_bp			- Thread following the left wing of the stem belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+l1t_hc			- Thread following the left wing of the stem belongs to a classical hairpin (1 - yes, 0 - no)
+l1t_hi			- Thread following the left wing of the stem belongs to an isolated hairpin (1 - yes, 0 - no)
+l1t_hp			- Thread following the left wing of the stem belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+l1t_ic			- Thread following the left wing of the stem belongs to a classical internal loop (1 - yes, 0 - no)
+l1t_ii			- Thread following the left wing of the stem belongs to an isolated internal loop (1 - yes, 0 - no)
+l1t_ip			- Thread following the left wing of the stem belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+l1t_jc			- Thread following the left wing of the stem belongs to a classical junction (1 - yes, 0 - no)
+l1t_ji			- Thread following the left wing of the stem belongs to an isolated junction (1 - yes, 0 - no)
+l1t_jp			- Thread following the left wing of the stem belongs to a pseudoknotted junction (1 - yes, 0 - no)
+l1t_fl			- Length (number of nucleotides) of the thread following the left wing of the stem
+l1t_gcont		- Number of guanines of the thread following the left wing of the stem
+l1t_acont		- Number of adenines of the thread following the left wing of the stem
+l1t_ccont		- Number of cytosines of the thread following the left wing of the stem
+l1t_ucont		- Number of uraciles of the thread following the left wing of the stem
+l1w_fl			- Length (number of nucleotides) of the wing following the left wing of the stem
+l1w_gcont		- Number of guanines of the wing following the left wing of the stem
+l1w_acont		- Number of adenines of the wing following the left wing of the stem
+l1w_ccont		- Number of cytosines of the wing following the left wing of the stem
+l1w_ucont		- Number of uraciles of the wing following the left wing of the stem
+r-1t_bc			- Thread preceding the right wing of the stem belongs to a classical bulge (1 - yes, 0 - no)
+r-1t_bi			- Thread preceding the right wing of the stem belongs to an isolated bulge (1 - yes, 0 - no)
+r-1t_bp			- Thread preceding the right wing of the stem belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+r-1t_hc			- Thread preceding the right wing of the stem belongs to a classical hairpin (1 - yes, 0 - no)
+r-1t_hi			- Thread preceding the right wing of the stem belongs to an isolated hairpin (1 - yes, 0 - no)
+r-1t_hp			- Thread preceding the right wing of the stem belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+r-1t_ic			- Thread preceding the right wing of the stem belongs to a classical internal loop (1 - yes, 0 - no)
+r-1t_ii			- Thread preceding the right wing of the stem belongs to an isolated internal loop (1 - yes, 0 - no)
+r-1t_ip			- Thread preceding the right wing of the stem belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+r-1t_jc			- Thread preceding the right wing of the stem belongs to a classical junction (1 - yes, 0 - no)
+r-1t_ji			- Thread preceding the right wing of the stem belongs to an isolated junction (1 - yes, 0 - no)
+r-1t_jp			- Thread preceding the right wing of the stem belongs to a pseudoknotted junction (1 - yes, 0 - no)
+r-1t_fl			- Length (number of nucleotides) of the thread preceding the right wing of the stem
+r-1t_gcont		- Number of guanines of the thread preceding the right wing of the stem
+r-1t_acont		- Number of adenines of the thread preceding the right wing of the stem
+r-1t_ccont		- Number of cytosines of the thread preceding the right wing of the stem
+r-1t_ucont		- Number of uraciles of the thread preceding the right wing of the stem
+r-1w_fl			- Length (number of nucleotides) of the wing preceding the right wing of the stem
+r-1w_gcont		- Number of guanines of the wing preceding the right wing of the stem
+r-1w_acont		- Number of adenines of the wing preceding the right wing of the stem
+r-1w_ccont		- Number of cytosines of the wing preceding the right wing of the stem
+r-1w_ucont		- Number of uraciles of the wing preceding the right wing of the stem
+r0w_gcont		- Number of guanines of the right wing of the stem
+r0w_acont		- Number of adenines of the right wing of the stem
+r0w_ccont		- Number of cytosines of the right wing of the stem
+r0w_ucont		- Number of uraciles of the right wing of the stem
+r1t_bc			- Thread following the right wing of the stem belongs to a classical bulge (1 - yes, 0 - no)
+r1t_bi			- Thread following the right wing of the stem belongs to an isolated bulge (1 - yes, 0 - no)
+r1t_bp			- Thread following the right wing of the stem belongs to a pseudoknotted bulge (1 - yes, 0 - no)
+r1t_hc			- Thread following the right wing of the stem belongs to a classical hairpin (1 - yes, 0 - no)
+r1t_hi			- Thread following the right wing of the stem belongs to an isolated hairpin (1 - yes, 0 - no)
+r1t_hp			- Thread following the right wing of the stem belongs to a pseudoknotted hairpin (1 - yes, 0 - no)
+r1t_ic			- Thread following the right wing of the stem belongs to a classical internal loop (1 - yes, 0 - no)
+r1t_ii			- Thread following the right wing of the stem belongs to an isolated internal loop (1 - yes, 0 - no)
+r1t_ip			- Thread following the right wing of the stem belongs to a pseudoknotted internal loop (1 - yes, 0 - no)
+r1t_jc			- Thread following the right wing of the stem belongs to a classical junction (1 - yes, 0 - no)
+r1t_ji			- Thread following the right wing of the stem belongs to an isolated junction (1 - yes, 0 - no)
+r1t_jp			- Thread following the right wing of the stem belongs to a pseudoknotted junction (1 - yes, 0 - no)
+r1t_fl			- Length (number of nucleotides) of the thread following the right wing of the stem
+r1t_gcont		- Number of guanines of the thread following the right wing of the stem
+r1t_acont		- Number of adenines of the thread following the right wing of the stem
+r1t_ccont		- Number of cytosines of the thread following the right wing of the stem
+r1t_ucont		- Number of uraciles of the thread following the right wing of the stem
+r1w_fl			- Length (number of nucleotides) of the wing following the right wing of the stem
+r1w_gcont		- Number of guanines of the wing following the right wing of the stem
+r1w_acont		- Number of adenines of the wing following the right wing of the stem
+r1w_ccont		- Number of cytosines of the wing following the right wing of the stem
+r1w_ucont		- Number of uraciles of the wing following the right wing of the stem
+stem_bp1		- 1st base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp2		- 2nd base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp3		- 3rd base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp4		- 4th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp5		- 5th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp6		- 6th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp7		- 7th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp8		- 8th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp9		- 9th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_bp10		- 10th base pair of the stem (GC = 6; CG = 5; AU = 4; UA = 3; GU = 2; UG = 1; 0 else)
+stem_gccont		- Number of G-C base pairs of the stem
+stem_aucont		- Number of A-U base pairs of the stem
+stem_gucont		- Number of G-U base pairs of the stem
+towersize		- Size of the tower that the stem belongs to
+numintower		- Ordinal number of the stem within the tower
+towerpseudo		- The tower is pseudoknotted (1 - yes, 0 - no)
+towerh			- The tower ends with a hairpin (1 - yes, 0 - no)
+pseudo			- The stem is pseudoknotted (1 - yes, 0 - no)
+numinecf		- Ordinal number of the stem within the ECR
+abab			- The stem is involved in an H-knot (1 - yes, 0 - no)
+abacbc			- The stem is involved in a kissing loops structure (1 - yes, 0 - no)
 fi			- position of the first adenine within its thread
 num_of_a		- Number of adenines of the stretch
 aloop_other_len		- Total length (number of nucleotides) of the loop of the adenines stretch except the adenines' thread 
@@ -290,16 +290,16 @@ aloop_other_gcont	- Number of guanines of the loop of the adenines stretch excep
 aloop_other_acont	- Number of adenines of the loop of the adenines stretch except the adenines' thread 
 aloop_other_ccont	- Number of cytosines of the loop of the adenines stretch except the adenines' thread 
 aloop_other_ucont	- Number of uraciles of the loop of the adenines stretch except the adenines' thread 
-a-5_nucl		- 
-a-4_nucl		- 
-a-3_nucl		- 
-a-2_nucl		- 
-a-1_nucl		- 
+a-5_nucl		- Base in the -5 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a-4_nucl		- Base in the -4 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a-3_nucl		- Base in the -3 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a-2_nucl		- Base in the -2 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a-1_nucl		- Base in the -1 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
 a1_nucl			- Base in the +1 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
-a2_nucl			- 
-a3_nucl			- 
-a4_nucl			- 
-a5_nucl			- 
+a2_nucl			- Base in the +2 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a3_nucl			- Base in the +3 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a4_nucl			- Base in the +4 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
+a5_nucl			- Base in the +5 position relative to the adenines (G = 4; A = 3; C = 2; U = 1; 0 else)
 pos			- target feature (1 - positive; 0 - negative)
 ```
 
