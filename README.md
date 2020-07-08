@@ -1,9 +1,41 @@
 
-## Description of RNA secondary structure context improves classification and prediction of A-minor motifs
+## Annotation of a local context of the RNA secondary structure improves classification and prediction of A-minor motifs
 
 ### List of files:
 
 #### MLdataset.csv - list of A-stems with their features used for training and prediction by the machine learning algorithm (features' description see below)
+
+#### AddFile1.pdf - Additional File 1. Generalized description of arbitrary RNA secondary structure. List of definitions
+
+#### AddFile2.xlsx - Additional File 2. Table of 2431 A-minor interactions
+
+#### AddFile3.xlsx - Additional File 3. Table of the edges forming 626 A-minor clusters
+
+#### AddFile4.xlsx - Additional File 4. Nonredundant set of 44 RNA chains
+
+#### AddFile5.pdf - Additional File 5. Table of across-bulged motifs
+
+#### Fig1.png - Figure 1. Pseudoknot-related classes of internal loops
+
+#### Fig2.png - Figure 2. Example of a classified A-minor
+
+#### Fig3.png - Figure 3. Definition of an A-stem classification problem
+
+#### Fig4.svg - Figure 4. Distribution of clustered A-minor interactions by geometric and molecular types
+
+#### Fig5.svg - Figure 5. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
+
+#### Fig6.svg - Figure 6. 10 most frequent RNA secondary structure classes of A-minor interactions
+
+#### Fig7.svg - Figure 7. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
+
+#### Fig8.svg - Figure 8. Different A-patch architectures of size (2,2)
+
+#### Fig9.svg - Figure 9. Cross-validation results for the entire dataset of A-stems
+
+#### Fig10.svg - Figure 10. Cross-validation results for the A-stem dataset of types IC-LC, HP-LC, & IP-LC
+
+#### Fig11.svg - Figure 11. AUA A-patch from LSU rRNA, PDB ID: 5TBW
 
 
 ### MLdataset.csv - description of columns:
