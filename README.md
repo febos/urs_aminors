@@ -1,19 +1,20 @@
 
-## Annotation of a local context of the RNA secondary structure improves classification and prediction of A-minor motifs
+## Annotation of the local context of the RNA secondary structure improves the classification and prediction of A-minors
 
 ### List of files:
 
 #### MLdataset.csv - list of A-stems with their features used for training and prediction by the machine learning algorithm (features' description see below)
 
-#### AddFile1.pdf - Additional File 1. Generalized description of arbitrary RNA secondary structure. List of definitions
+#### SupplData.pdf - Supplementary information
 
-#### AddFile2.xlsx - Additional File 2. Table of 2431 A-minor interactions
+#### SupplTableS1.xlsx - Supplementary Table S1
 
-#### AddFile3.xlsx - Additional File 3. Table of the edges forming 626 A-minor clusters
+#### SupplTableS2.xlsx - Supplementary Table S2
 
-#### AddFile4.xlsx - Additional File 4. Nonredundant set of 44 RNA chains
+#### SupplTableS3.xlsx - Supplementary Table S3
 
-#### AddFile5.pdf - Additional File 5. Table of across-bulged motifs
+#### SupplTableS4.xlsx - Supplementary Table S4
+
 
 #### Fig1.png - Figure 1. Pseudoknot-related classes of internal loops
 
@@ -31,11 +32,9 @@
 
 #### Fig8.svg - Figure 8. Different A-patch architectures of size (2,2)
 
-#### Fig9.svg - Figure 9. Cross-validation results for the entire dataset of A-stems
+#### Fig9.svg - Figure 9. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
 
-#### Fig10.svg - Figure 10. Cross-validation results for the A-stem dataset of types IC-LC, HP-LC, & IP-LC
-
-#### Fig11.svg - Figure 11. AUA A-patch from LSU rRNA, PDB ID: 5TBW
+#### Fig10.svg - Figure 10. AUA A-patch from LSU rRNA, PDB ID: 5TBW
 
 
 ### MLdataset.csv - description of columns:
