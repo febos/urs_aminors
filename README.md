@@ -7,34 +7,34 @@
 
 #### SupplData.pdf - Supplementary information
 
-#### SupplTableS1.xlsx - Supplementary Table S1
-
 #### SupplTableS2.xlsx - Supplementary Table S2
 
 #### SupplTableS3.xlsx - Supplementary Table S3
 
 #### SupplTableS4.xlsx - Supplementary Table S4
 
+#### SupplTableS5.xlsx - Supplementary Table S5
 
-#### Fig1.png - Figure 1. Pseudoknot-related classes of internal loops
 
-#### Fig2.png - Figure 2. Example of a classified A-minor
+#### Fig1.png - Figure 1. Distribution of clustered A-minor interactions by geometric and molecular types
 
-#### Fig3.png - Figure 3. Definition of an A-stem classification problem
+#### Fig2.png - Figure 2. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
 
-#### Fig4.svg - Figure 4. Distribution of clustered A-minor interactions by geometric and molecular types
+#### Fig3.png - Figure 3. 10 most frequent RNA secondary structure classes of A-minor interactions
 
-#### Fig5.svg - Figure 5. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
+#### Fig4.png - Figure 4. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
 
-#### Fig6.svg - Figure 6. 10 most frequent RNA secondary structure classes of A-minor interactions
+#### Fig5.png - Figure 5. Different A-patch architectures of size (2,2)
 
-#### Fig7.svg - Figure 7. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
+#### Fig6.png - Figure 6. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
 
-#### Fig8.svg - Figure 8. Different A-patch architectures of size (2,2)
+#### Fig7.png - Figure 7. AUA A-patch from LSU rRNA, PDB ID: 5TBW
 
-#### Fig9.svg - Figure 9. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
+#### Fig8.png - Figure 8. Pseudoknot-related classes of internal loops
 
-#### Fig10.svg - Figure 10. AUA A-patch from LSU rRNA, PDB ID: 5TBW
+#### Fig9.png - Figure 9. Example of a classified A-minor
+
+#### Fig10.png - Figure 10. Definition of an A-stem classification problem
 
 
 ### MLdataset.csv - description of columns:
