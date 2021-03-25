@@ -5,7 +5,13 @@
 
 #### MLdataset.csv - list of A-stems with their features used for training and prediction by the machine learning algorithm (features' description see below)
 
-#### SupplData.pdf - Supplementary information
+#### Supplemental_text_S1.pdf - Supplementary Text S1
+
+#### FileS1.jmol - Supplementary File S1
+
+#### FigureS1.jpg - Supplementary Figure S1
+
+#### SupplTableS1.pdf - Supplementary Table S1
 
 #### SupplTableS2.xlsx - Supplementary Table S2
 
@@ -16,7 +22,7 @@
 #### SupplTableS5.xlsx - Supplementary Table S5
 
 
-#### Fig1.png - Figure 1. Distribution of clustered A-minor interactions by geometric and molecular types
+#### Fig1.jpg - Figure 1. Distribution of clustered A-minor interactions by geometric and molecular types
 
 #### Fig2.png - Figure 2. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
 
@@ -24,7 +30,7 @@
 
 #### Fig4.png - Figure 4. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
 
-#### Fig5.png - Figure 5. Different A-patch architectures of size (2,2)
+#### Fig5.jpg - Figure 5. Different A-patch architectures of size (2,2)
 
 #### Fig6.png - Figure 6. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
 
@@ -34,7 +40,7 @@
 
 #### Fig9.png - Figure 9. Example of a classified A-minor
 
-#### Fig10.png - Figure 10. Definition of an A-stem classification problem
+#### Fig10.jpg - Figure 10. Definition of an A-stem classification problem
 
 
 ### MLdataset.csv - description of columns:
