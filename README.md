@@ -24,21 +24,21 @@
 
 #### Fig1.jpg - Figure 1. Distribution of clustered A-minor interactions by geometric and molecular types
 
-#### Fig2.png - Figure 2. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
+#### Fig2.jpg - Figure 2. The size distribution of 1504 A-minor motifs from the representative set of RNA structures
 
-#### Fig3.png - Figure 3. 10 most frequent RNA secondary structure classes of A-minor interactions
+#### Fig3.jpg - Figure 3. 10 most frequent RNA secondary structure classes of A-minor interactions
 
-#### Fig4.png - Figure 4. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
+#### Fig4.jpg - Figure 4. 3D structure and RNA secondary structure scheme of two across-bulged motifs and a GAAA-11nt motif
 
 #### Fig5.jpg - Figure 5. Different A-patch architectures of size (2,2)
 
-#### Fig6.png - Figure 6. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
+#### Fig6.jpg - Figure 6. Cross-validation results on the entire dataset of A-stems and on the subgroup of threetypes: IC-LC, HP-LC, and IP-LC
 
-#### Fig7.png - Figure 7. AUA A-patch from LSU rRNA, PDB ID: 5TBW
+#### Fig7.jpg - Figure 7. AUA A-patch from LSU rRNA, PDB ID: 5TBW
 
-#### Fig8.png - Figure 8. Pseudoknot-related classes of internal loops
+#### Fig8.jpg - Figure 8. Pseudoknot-related classes of internal loops
 
-#### Fig9.png - Figure 9. Example of a classified A-minor
+#### Fig9.jpg - Figure 9. Example of a classified A-minor
 
 #### Fig10.jpg - Figure 10. Definition of an A-stem classification problem
 
