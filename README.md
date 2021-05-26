@@ -1,7 +1,7 @@
 
 ## Shalybkova AA, Mikhailova DS, Kulakovskiy IV, Fakhranurova LI, Baulin EF. Annotation of the local context of the RNA secondary structure improves the classification and prediction of A-minors. RNA. 2021 May 20:rna-078535.
 
-## https:doi.org/10.1261/rna.078535.120
+## https://doi.org/10.1261/rna.078535.120
 
 ### List of files:
 
